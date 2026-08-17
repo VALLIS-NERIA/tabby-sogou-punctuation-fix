@@ -1,0 +1,46 @@
+{
+  "name": "tabby-sogou-punctuation-fix",
+  "version": "1.0.0",
+  "description": "Fix macOS Sogou IME Chinese punctuation input in Tabby xterm terminals.",
+  "keywords": [
+    "tabby-plugin",
+    "tabby",
+    "terminal",
+    "macos",
+    "sogou",
+    "ime",
+    "chinese",
+    "punctuation",
+    "xterm"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": {
+    "name": "xiweny",
+    "email": "13230610+VALLIS-NERIA@users.noreply.github.com",
+    "url": "https://github.com/VALLIS-NERIA"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VALLIS-NERIA/tabby-sogou-punctuation-fix.git"
+  },
+  "homepage": "https://github.com/VALLIS-NERIA/tabby-sogou-punctuation-fix#readme",
+  "bugs": {
+    "url": "https://github.com/VALLIS-NERIA/tabby-sogou-punctuation-fix/issues"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "prepublishOnly": "node test.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/core": "^15",
+    "tabby-terminal": "*"
+  }
+}
